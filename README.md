@@ -1,2 +1,2 @@
 # VreleBosanke
-GNtravel
+GNtrans
