@@ -5,6 +5,23 @@
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
+
+
+    }
+    .w3-bar .w3-button {
+    
+        white-space: normal;
+    
+    }
+    .w3-bar .w3-bar-item {
+    
+        padding: 8px 16px;
+        float: left;
+        width: auto;
+        border: none;
+        display: block;
+        outline: 0;    
+
 }
 
 .btn-group button:not(:last-child) {
