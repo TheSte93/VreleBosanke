@@ -1,27 +1,14 @@
 .btn-group button {
-    background-color: #006ad1; /* Green background */
-    border: 3px solid #FFEE77; /* Green border */
+    background-color: #ff7315; /* Green */ /* Green background */
+    border: 3px solid #0a0a0a;
     color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
+    padding: 20px 32px;
     cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
-
-
-    }
-    .w3-bar .w3-button {
-    
-        white-space: normal;
-    
-    }
-    .w3-bar .w3-bar-item {
-    
-        padding: 8px 16px;
-        float: left;
-        width: auto;
-        border: none;
-        display: block;
-        outline: 0;    
-
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
 }
 
 .btn-group button:not(:last-child) {
