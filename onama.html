@@ -29,11 +29,48 @@
     background-repeat: no-repeat;
     background-size: 1920px 1080px
   }
-</style> 
+
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  /* Left and right column */
+  .column.side {
+    width: 15%;
+  }
+
+  /* Middle column */
+  .column.middle {
+    width: 70%;
+    background-color: #F1F1F1;
+    text-align: center;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+</style>
+<div class="row">
+<div class="column side">
+</div>
+
+<div class="column middle">
 	<h1><br><br><font size="10"><font face="Castellar">O nama</font></font> </h1>
 	<font size="5"> <i>Firma je osnovana davne 1987. godine u Rumi. Vlasnik firme je Gligorevic Nedjo. </i></font>
-<br>
-<br>
+
+</div>
 
 </body>
 </html>

@@ -22,15 +22,53 @@
   </div> 
 
 </head>
-    <style>
-      body {
-        background-image: url('11.jpg');
-        background-repeat: no-repeat;
-        background-size: 1920px 1080px
-      }
-    </style> 
+<style>
+  body {
+    background-image: url('11.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px
+  }
+
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+
+  /* Left and right column */
+  .column.side {
+    width: 15%;
+  }
+
+  /* Middle column */
+  .column.middle {
+    width: 70%;
+    background-color: #F1F1F1;
+    text-align: center;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+</style>
+<div class="row">
+  <div class="column side">
+  </div>
+
+  <div class="column middle">
   <h1><br><br><font size="10"><font face="Castellar">Kontakt</font></font> </h1>
 	<font size="5"> <i> Kontaktirajte nas pomocu broj: 061/62/66/024 ili posaljite poruku na poslovni email <a href="http://google.com">marked1998return@gmail.com</a></i></font>
-
+</div>
 </body>
 </html>
